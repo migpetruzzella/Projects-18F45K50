@@ -1,0 +1,273 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Fri Dec 15 17:29:43 2023
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                 RES_VECT       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                  entrada       code   0x000006    program   0x0005e8
+                MAIN_PROG       code   0x0005ee    program   0x000054
+               .udata_acs      udata   0x000000       data   0x000039
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000641      
+            1602 out of 33048 program addresses used, program memory utilization is 4%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  ADICION   0x0001b4    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+   APAGADO_CONTROLDECARRY   0x000274    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    CARGA   0x000288    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  CARGARM   0x000550    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+              CARGA_CARRY   0x0002aa    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                     CAS0   0x00042e    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                     CAS1   0x0003fa    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+              COMPARACION   0x00038a    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+           CONTROLDECARRY   0x00025e    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  CONVDEC   0x000462    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+               CONVER_DEC   0x000378    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+              CONVER_DECM   0x0005a4    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 CONV_ASC   0x00027c    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                CONV_ASC2   0x0004ae    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+         DISMINUCION_MINU   0x0004a6    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    FALSO   0x0000fa    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  INICIAL   0x000606    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                     LAZO   0x0000c8    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  LECTURA   0x000612    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+            LECTURA_DE_OP   0x00011a    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  LLENADO   0x0002c2    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 LLENADOF   0x0004d0    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+       LLENADO_EN_MEMORIA   0x0005c6    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+         LLENADO_MULTIPLO   0x000582    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                     MULT   0x0005b8    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+           MULTIPLICACION   0x0004f0    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   RESNEG   0x000542    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   RESPOS   0x000534    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    RESTA   0x0002e6    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 RES_DIEZ   0x000258    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  RETARDO   0x0005c6    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 RETARDO0   0x0005d8    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 RETARDO1   0x0005ce    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                RETARDO10   0x0005e0    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 RETARDO2   0x0005ca    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                RETARDO20   0x0005dc    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 RETARDO3   0x0005c6    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                RETARDO30   0x0005d8    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       S1   0x00015c    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   SIGMUL   0x00050e    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    SIGNO   0x000164    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                SIGNO_RES   0x000308    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   SIG_IG   0x00019c    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+               SIG_IG_RES   0x000330    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  SIMBOL0   0x0003ae    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 SIMBOL1L   0x0003ca    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 SIMBOL1M   0x0003dc    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    START   0x0005ee    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                      SUB   0x0003ee    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                     SUMA   0x000154    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    SUMA6   0x000252    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+              SUSTRACCION   0x000476    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                VERDADERO   0x00010a    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                VERIFICAR   0x000010    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 V_NUMERO   0x0000c2    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                V_SIMBOLO   0x000084    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+           V_SIMBOLO_PLUS   0x00009e    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                        X   0x0001c6    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       X1   0x0001ea    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                      X10   0x000502    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       X3   0x0002ce    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       X4   0x00033a    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       X5   0x0002fa    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       X7   0x0004d6    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+            _entrada_0248   0x00024e    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+            _entrada_02FE   0x000304    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+            _entrada_05E4   0x0005ea    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+             aumentocarry   0x000266    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+            carga_de_FSR0   0x0000f2    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   cargar   0x0004ba    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  entrada   0x000006    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  guardar   0x0000e4    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                     loop   0x000624    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+             modificacion   0x000494    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       s0   0x000158    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   suma_1   0x000204    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       x2   0x00023a    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   DELAY1   0x00002e       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   DELAY2   0x00002f       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   DELAY3   0x000030       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   DELAY4   0x000031       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                      aux   0x00000b       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 aux_add0   0x000012       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 aux_add1   0x000013       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                aux_comp0   0x00001d       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                aux_comp1   0x00001e       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+             aux_de_casos   0x000023       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+      aux_de_verificacion   0x00000c       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  aux_dec   0x000024       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+              aux_llenado   0x000018       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+             aux_multiplo   0x000019       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+            aux_multiplo0   0x00001a       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+               aux_numero   0x00000d       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 aux_sig0   0x000010       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 aux_sig1   0x000011       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    carry   0x00001c       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+             con_de_carry   0x00001b       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                cont_guar   0x000017       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                cont_sum0   0x000014       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                cont_sum1   0x000015       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                cont_sum2   0x000016       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 contador   0x00002d       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+contador_de_posicion_de_dato   0x00000a       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+      control_llenado_mul   0x00002c       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+   controlador_de_lectura   0x000009       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                ind_comp0   0x00001f       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                ind_comp1   0x000020       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 minuendo   0x000021       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    mult0   0x000027       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    mult1   0x000028       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 multiplo   0x000029       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                multiplo0   0x00002a       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 operador   0x00000f       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 post_res   0x000026       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   resmul   0x00002b       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   result   0x000025       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+               sustraendo   0x000022       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   tabram   0x000000       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                tabresult   0x000032       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                     var3   0x00000e       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  entrada   0x000006    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                VERIFICAR   0x000010    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                V_SIMBOLO   0x000084    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+           V_SIMBOLO_PLUS   0x00009e    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 V_NUMERO   0x0000c2    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                     LAZO   0x0000c8    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  guardar   0x0000e4    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+            carga_de_FSR0   0x0000f2    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    FALSO   0x0000fa    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                VERDADERO   0x00010a    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+            LECTURA_DE_OP   0x00011a    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                     SUMA   0x000154    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       s0   0x000158    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       S1   0x00015c    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    SIGNO   0x000164    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   SIG_IG   0x00019c    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  ADICION   0x0001b4    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                        X   0x0001c6    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       X1   0x0001ea    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   suma_1   0x000204    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       x2   0x00023a    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+            _entrada_0248   0x00024e    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    SUMA6   0x000252    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 RES_DIEZ   0x000258    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+           CONTROLDECARRY   0x00025e    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+             aumentocarry   0x000266    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+   APAGADO_CONTROLDECARRY   0x000274    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 CONV_ASC   0x00027c    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    CARGA   0x000288    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+              CARGA_CARRY   0x0002aa    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  LLENADO   0x0002c2    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       X3   0x0002ce    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    RESTA   0x0002e6    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       X5   0x0002fa    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+            _entrada_02FE   0x000304    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                SIGNO_RES   0x000308    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+               SIG_IG_RES   0x000330    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       X4   0x00033a    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+               CONVER_DEC   0x000378    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+              COMPARACION   0x00038a    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  SIMBOL0   0x0003ae    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 SIMBOL1L   0x0003ca    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 SIMBOL1M   0x0003dc    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                      SUB   0x0003ee    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                     CAS1   0x0003fa    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                     CAS0   0x00042e    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  CONVDEC   0x000462    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+              SUSTRACCION   0x000476    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+             modificacion   0x000494    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+         DISMINUCION_MINU   0x0004a6    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                CONV_ASC2   0x0004ae    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   cargar   0x0004ba    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 LLENADOF   0x0004d0    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                       X7   0x0004d6    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+           MULTIPLICACION   0x0004f0    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                      X10   0x000502    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   SIGMUL   0x00050e    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   RESPOS   0x000534    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   RESNEG   0x000542    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  CARGARM   0x000550    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+         LLENADO_MULTIPLO   0x000582    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+              CONVER_DECM   0x0005a4    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                     MULT   0x0005b8    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  RETARDO   0x0005c6    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+       LLENADO_EN_MEMORIA   0x0005c6    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 RETARDO3   0x0005c6    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 RETARDO2   0x0005ca    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 RETARDO1   0x0005ce    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 RETARDO0   0x0005d8    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                RETARDO30   0x0005d8    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                RETARDO20   0x0005dc    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                RETARDO10   0x0005e0    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+            _entrada_05E4   0x0005ea    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    START   0x0005ee    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  INICIAL   0x000606    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  LECTURA   0x000612    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                     loop   0x000624    program     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   tabram   0x000000       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+   controlador_de_lectura   0x000009       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+contador_de_posicion_de_dato   0x00000a       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                      aux   0x00000b       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+      aux_de_verificacion   0x00000c       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+               aux_numero   0x00000d       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                     var3   0x00000e       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 operador   0x00000f       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 aux_sig0   0x000010       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 aux_sig1   0x000011       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 aux_add0   0x000012       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 aux_add1   0x000013       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                cont_sum0   0x000014       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                cont_sum1   0x000015       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                cont_sum2   0x000016       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                cont_guar   0x000017       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+              aux_llenado   0x000018       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+             aux_multiplo   0x000019       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+            aux_multiplo0   0x00001a       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+             con_de_carry   0x00001b       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    carry   0x00001c       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                aux_comp0   0x00001d       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                aux_comp1   0x00001e       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                ind_comp0   0x00001f       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                ind_comp1   0x000020       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 minuendo   0x000021       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+               sustraendo   0x000022       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+             aux_de_casos   0x000023       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                  aux_dec   0x000024       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   result   0x000025       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 post_res   0x000026       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    mult0   0x000027       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                    mult1   0x000028       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 multiplo   0x000029       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                multiplo0   0x00002a       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   resmul   0x00002b       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+      control_llenado_mul   0x00002c       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                 contador   0x00002d       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   DELAY1   0x00002e       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   DELAY2   0x00002f       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   DELAY3   0x000030       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                   DELAY4   0x000031       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+                tabresult   0x000032       data     static C:\Users\migue\MPLABXProjects\Proyecto Final 1.X\main.asm
+
+

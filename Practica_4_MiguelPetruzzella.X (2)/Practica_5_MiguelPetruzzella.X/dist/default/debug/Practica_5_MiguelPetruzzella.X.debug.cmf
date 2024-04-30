@@ -1,0 +1,697 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+intcodelo CODE 0 18 18 70 1 2
+cinit CODE 0 1838 1838 26 1 2
+idloc IDLOC 5 200000 200000 8 1 1
+text0 CODE 0 1008 1008 224 1 2
+text1 CODE 0 1750 1750 42 1 2
+text2 CODE 0 13E4 13E4 108 1 2
+text3 CODE 0 17D0 17D0 34 1 2
+text4 CODE 0 1792 1792 3E 1 2
+text5 CODE 0 122C 122C 1B8 1 2
+text6 CODE 0 1660 1660 AA 1 2
+text7 CODE 0 1884 1884 2 1 2
+text8 CODE 0 1804 1804 34 1 2
+text9 CODE 0 15B0 15B0 B0 1 2
+text10 CODE 0 14EC 14EC C4 1 2
+text11 CODE 0 170A 170A 46 1 2
+text12 CODE 0 185E 185E 26 1 2
+cstackCOMRAM COMRAM 1 1 1 39 1 1
+cstackBANK0 BANK0 1 80 80 10 1 1
+temp COMRAM 1 4A 4A 1 1 1
+bssBANK0 BANK0 1 60 60 20 1 1
+smallconst SMALLCONST 0 800 800 38 1 2
+_firma_text CODE 0 1006 1006 2 1 2
+bssCOMRAM COMRAM 1 3A 3A 10 1 1
+config CONFIG 4 300000 300000 E 1 1
+$C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+idloc IDLOC 5 200000 200000 8 1 1
+init CODE 0 88 88 4 1 2
+reset_vec CODE 0 0 0 4 1 2
+config CONFIG 4 300000 300000 E 1 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 90-7FF 1
+SFR F53-FFF 1
+BANK0 90-FF 1
+BANK1 100-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+CONST 4-17 1
+CONST 8C-7FF 1
+CONST 838-1005 1
+CONST 1886-7FFF 1
+SMALLCONST 838-1005 1
+SMALLCONST 1886-7FFF 1
+CODE 4-17 1
+CODE 8C-7FF 1
+CODE 838-1005 1
+CODE 1886-7FFF 1
+BIGRAM 4B-5F 1
+BIGRAM 90-7FF 1
+BIGSFR F53-FFF 1
+COMRAM 4B-5F 1
+EEDATA F00000-F000FF 1
+MEDIUMCONST 838-1005 1
+MEDIUMCONST 1886-7FFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+18 intcodelo CODE >4082:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+18 intcodelo CODE >21:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+2E intcodelo CODE >24:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+3C intcodelo CODE >25:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+40 intcodelo CODE >26:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+4E intcodelo CODE >27:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+50 intcodelo CODE >28:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+52 intcodelo CODE >30:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+62 intcodelo CODE >31:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+6E intcodelo CODE >32:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+70 intcodelo CODE >36:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+185E text12 CODE >15:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+185E text12 CODE >37:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+186A text12 CODE >38:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+1872 text12 CODE >39:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+187A text12 CODE >52:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+1882 text12 CODE >53:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+170A text11 CODE >11:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+170A text11 CODE >15:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+170E text11 CODE >17:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+1712 text11 CODE >18:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+1716 text11 CODE >24:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+1718 text11 CODE >26:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+171A text11 CODE >28:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+171C text11 CODE >30:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+171E text11 CODE >32:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+1720 text11 CODE >34:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+1726 text11 CODE >38:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+172A text11 CODE >39:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+172C text11 CODE >40:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+172E text11 CODE >41:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+1730 text11 CODE >42:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+1732 text11 CODE >43:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+1734 text11 CODE >44:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+1736 text11 CODE >48:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+173A text11 CODE >49:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+173E text11 CODE >50:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+1740 text11 CODE >51:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+1742 text11 CODE >52:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+1744 text11 CODE >53:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+1746 text11 CODE >54:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+1748 text11 CODE >55:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+174C text11 CODE >56:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+174E text11 CODE >58:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\config.c
+14EC text10 CODE >7:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+14EC text10 CODE >13:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+14F0 text10 CODE >14:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+14FE text10 CODE >15:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+1506 text10 CODE >16:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+150A text10 CODE >18:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+1518 text10 CODE >19:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+1520 text10 CODE >20:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+1524 text10 CODE >22:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+152C text10 CODE >23:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+153E text10 CODE >24:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+1542 text10 CODE >25:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+1546 text10 CODE >26:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+154C text10 CODE >27:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+154E text10 CODE >25:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+155C text10 CODE >30:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+1562 text10 CODE >31:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+1578 text10 CODE >32:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+1580 text10 CODE >33:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+1582 text10 CODE >35:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+1588 text10 CODE >36:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+158E text10 CODE >38:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+159E text10 CODE >39:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+15A6 text10 CODE >40:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+15AE text10 CODE >41:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+15B0 text9 CODE >7:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+15B0 text9 CODE >12:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+15B4 text9 CODE >13:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+15C2 text9 CODE >14:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+15CA text9 CODE >15:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+15CE text9 CODE >17:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+15DC text9 CODE >18:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+15E4 text9 CODE >19:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+15F6 text9 CODE >20:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+15FA text9 CODE >21:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+15FE text9 CODE >22:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+1604 text9 CODE >23:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+1606 text9 CODE >21:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+1614 text9 CODE >26:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+162A text9 CODE >27:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+1632 text9 CODE >28:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+1638 text9 CODE >29:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+163E text9 CODE >31:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+164E text9 CODE >32:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+1656 text9 CODE >33:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+165E text9 CODE >34:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+1804 text8 CODE >1:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\abs.c
+1804 text8 CODE >3:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\abs.c
+1836 text8 CODE >4:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\abs.c
+1884 text7 CODE >7:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\putch.c
+1884 text7 CODE >9:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\putch.c
+1660 text6 CODE >8:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_fputc.c
+1660 text6 CODE >12:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_fputc.c
+1680 text6 CODE >13:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_fputc.c
+1686 text6 CODE >14:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_fputc.c
+168A text6 CODE >15:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_fputc.c
+16D8 text6 CODE >18:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_fputc.c
+16F8 text6 CODE >20:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_fputc.c
+1708 text6 CODE >24:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_fputc.c
+122C text5 CODE >1177:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+122C text5 CODE >1201:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+124E text5 CODE >1202:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+1256 text5 CODE >1204:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+1262 text5 CODE >1205:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+1266 text5 CODE >1291:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+1270 text5 CODE >1361:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+12A8 text5 CODE >1404:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+12C0 text5 CODE >1406:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+12CA text5 CODE >1408:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+12CE text5 CODE >1409:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+12E2 text5 CODE >1411:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+1312 text5 CODE >1412:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+132E text5 CODE >1416:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+1350 text5 CODE >1417:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+1370 text5 CODE >1418:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+1382 text5 CODE >1424:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+139E text5 CODE >1423:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+13B4 text5 CODE >1806:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+13C0 text5 CODE >1811:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+13E2 text5 CODE >1814:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+1792 text4 CODE >1817:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+1792 text4 CODE >1822:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+1796 text4 CODE >1826:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+179A text4 CODE >1830:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+17AA text4 CODE >1826:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+17C6 text4 CODE >1835:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+17CE text4 CODE >1840:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\doprnt.c
+17D0 text3 CODE >9:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_sprintf.c
+17D0 text3 CODE >15:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_sprintf.c
+17D4 text3 CODE >16:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_sprintf.c
+17D8 text3 CODE >17:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_sprintf.c
+17E0 text3 CODE >18:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_sprintf.c
+17E8 text3 CODE >19:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_sprintf.c
+17F8 text3 CODE >20:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_sprintf.c
+1802 text3 CODE >23:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\nf_sprintf.c
+13E4 text2 CODE >95:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+13E4 text2 CODE >97:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+13E8 text2 CODE >99:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+13F6 text2 CODE >100:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+13F8 text2 CODE >101:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1406 text2 CODE >103:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1408 text2 CODE >97:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1424 text2 CODE >106:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+143A text2 CODE >109:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1444 text2 CODE >110:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1446 text2 CODE >111:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1454 text2 CODE >113:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1456 text2 CODE >107:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+146C text2 CODE >117:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1478 text2 CODE >128:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1482 text2 CODE >129:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1484 text2 CODE >130:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1492 text2 CODE >132:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1494 text2 CODE >126:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+14AE text2 CODE >136:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+14BC text2 CODE >137:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+14BE text2 CODE >138:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+14CC text2 CODE >140:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+14CE text2 CODE >134:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+14EA text2 CODE >142:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1750 text1 CODE >144:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1750 text1 CODE >145:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1754 text1 CODE >147:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1762 text1 CODE >148:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1764 text1 CODE >149:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1772 text1 CODE >151:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1774 text1 CODE >145:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1790 text1 CODE >153:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1008 text0 CODE >38:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1008 text0 CODE >40:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+100C text0 CODE >43:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+101E text0 CODE >47:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1028 text0 CODE >48:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+104C text0 CODE >51:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+106C text0 CODE >53:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1080 text0 CODE >56:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1088 text0 CODE >59:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1090 text0 CODE >60:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+10C6 text0 CODE >61:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+10E6 text0 CODE >62:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+10EE text0 CODE >64:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+10F6 text0 CODE >65:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+112C text0 CODE >66:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+114C text0 CODE >68:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1158 text0 CODE >70:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1174 text0 CODE >71:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+11A4 text0 CODE >72:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+11C0 text0 CODE >77:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+11D4 text0 CODE >78:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+11E8 text0 CODE >79:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+11FC text0 CODE >81:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1214 text0 CODE >82:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1218 text0 CODE >85:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1220 text0 CODE >88:C:\Users\migue\MPLABXProjects\Practica_5_MiguelPetruzzella.X\main.c
+1838 cinit CODE >1102:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+1838 cinit CODE >1104:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+1838 cinit CODE >1107:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+1838 cinit CODE >1142:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+183C cinit CODE >1143:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+183E cinit CODE >1144:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+183E cinit CODE >1145:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+1840 cinit CODE >1146:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+1842 cinit CODE >1147:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+1844 cinit CODE >1150:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+1848 cinit CODE >1151:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+184A cinit CODE >1152:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+184A cinit CODE >1153:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+184C cinit CODE >1154:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+184E cinit CODE >1155:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+1850 cinit CODE >1161:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+1850 cinit CODE >1163:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+1852 cinit CODE >1164:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+1854 cinit CODE >1166:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+1856 cinit CODE >1167:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+1858 cinit CODE >1168:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+185A cinit CODE >1169:C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_1.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___awdiv@counter B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hspace_0 1886 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hspace_1 90 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hspace_2 0 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hspace_4 60000E 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+__H_firma_text 1008 0 CODE 0 _firma_text dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__L__absolute__ 0 0 ABS 0 __absolute__ dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+?_abs 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+main@i 8E 0 BANK0 1 cstackBANK0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+main@k 8C 0 BANK0 1 cstackBANK0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+?_vfprintf 24 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lsmallconst 800 0 SMALLCONST 0 smallconst dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___sp 0 0 STACK 2 stack C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+_dbuf 60 0 BANK0 1 bssBANK0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_dece 44 0 COMRAM 1 bssCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_lint 18 0 CODE 0 intcodelo dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_main 1008 0 CODE 0 text0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_prec 40 0 COMRAM 1 bssCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_unid 46 0 COMRAM 1 bssCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+abs@a 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+btemp 4A 0 COMRAM 1 temp dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___stack_hi 0 0 STACK 2 stack C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+___stack_lo 0 0 STACK 2 stack C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+start 88 0 CODE 0 init C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+?___wmul 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+main@centesal 82 0 BANK0 1 cstackBANK0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hpowerup 88 0 CODE 0 powerup dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+tx_232@numero1 8 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+tx_232@numero2 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+tx_232@numero3 A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of_vfpfcnvrt 13E4 0 CODE 0 text5 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___awmod@sign 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+ttemp5 4B 0 COMRAM 1 temp dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+ttemp6 4E 0 COMRAM 1 temp dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+ttemp7 52 0 COMRAM 1 temp dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__accesstop 60 0 ABS 0 - C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+intlevel0 0 0 CODE 0 text C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+intlevel1 0 0 CODE 0 text C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+intlevel2 0 0 CODE 0 text C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+intlevel3 0 0 CODE 0 text C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+wtemp8 4B 0 COMRAM 1 temp dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_tx_232e 1750 0 CODE 0 text1 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hifardata 0 0 CODE 0 ifardata dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___awdiv@sign C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hclrtext 0 0 ABS 0 clrtext dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_vfpfcnvrt 122C 0 CODE 0 text5 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___wmul@multiplicand 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_ANSELC F5D 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___awdiv@dividend 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of___wmul 1884 0 CODE 0 text12 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_TXSTA1bits FAC 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hintcodelo 88 0 CODE 0 intcodelo dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___awdiv@divisor 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of___awdiv 15B0 0 CODE 0 text10 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of___awmod 1660 0 CODE 0 text9 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of_config 1750 0 CODE 0 text11 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_INTCON FF2 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_INTCON2bits FF1 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lintcodelo 18 0 CODE 0 intcodelo dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+lint@valor_recibido 6 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+start_initialization 1838 0 CODE 0 cinit dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_OSCCON FD3 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_numeros 3A 0 COMRAM 1 bssCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+tx_232e@mens 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_TRISAbits F92 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_TRISBbits F93 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_TRISCbits F94 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___rparam_used 1 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_RCREG1 FAE 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_SPBRG1 FAF 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__pcstackBANK0 80 0 BANK0 1 cstackBANK0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_IPR1bits F9F 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_TXREG1 FAD 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+isa$xinst 0 0 ABS 0 - C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+fputc@fp 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+vfpfcnvrt@done 1D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hbank0 0 0 ABS 0 bank0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hbank1 0 0 ABS 0 bank1 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hbank2 0 0 ABS 0 bank2 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hbank3 0 0 ABS 0 bank3 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hbank4 0 0 ABS 0 bank4 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hbank5 0 0 ABS 0 bank5 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hbank6 0 0 ABS 0 bank6 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hbank7 0 0 ABS 0 bank7 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hcinit 0 0 ABS 0 cinit dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hconst 0 0 CONST 0 const dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hidata 0 0 CODE 0 idata dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hidloc 200008 0 IDLOC 5 idloc dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hrdata 0 0 COMRAM 1 rdata dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hstack 0 0 STACK 2 stack dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Htext0 0 0 ABS 0 text0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Htext1 0 0 ABS 0 text1 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Htext2 0 0 ABS 0 text2 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Htext3 0 0 ABS 0 text3 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Htext4 0 0 ABS 0 text4 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Htext5 0 0 ABS 0 text5 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Htext6 0 0 ABS 0 text6 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Htext7 0 0 ABS 0 text7 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Htext8 0 0 ABS 0 text8 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Htext9 0 0 ABS 0 text9 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of_tx_232 14EC 0 CODE 0 text2 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hbigram 0 0 ABS 0 bigram dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hbigsfr 0 0 ABS 0 bigsfr dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+_BAUDCON1 FB8 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+tx_232@mens 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of_sprintf 1804 0 CODE 0 text3 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hcomram 0 0 ABS 0 comram dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hconfig 30000E 0 CONFIG 4 config dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lbank0 0 0 ABS 0 bank0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lbank1 0 0 ABS 0 bank1 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lbank2 0 0 ABS 0 bank2 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lbank3 0 0 ABS 0 bank3 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lbank4 0 0 ABS 0 bank4 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lbank5 0 0 ABS 0 bank5 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lbank6 0 0 ABS 0 bank6 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lbank7 0 0 ABS 0 bank7 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lcinit 0 0 ABS 0 cinit dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lconst 0 0 CONST 0 const dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lidata 0 0 CODE 0 idata dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lidloc 0 0 IDLOC 5 idloc dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lrdata 0 0 COMRAM 1 rdata dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lstack 0 0 STACK 2 stack dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ltext0 0 0 ABS 0 text0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ltext1 0 0 ABS 0 text1 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ltext2 0 0 ABS 0 text2 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ltext3 0 0 ABS 0 text3 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ltext4 0 0 ABS 0 text4 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ltext5 0 0 ABS 0 text5 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ltext6 0 0 ABS 0 text6 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ltext7 0 0 ABS 0 text7 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ltext8 0 0 ABS 0 text8 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ltext9 0 0 ABS 0 text9 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_INTCONbits FF2 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Habs1 0 0 ABS 0 abs1 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hdata 0 0 ABS 0 data dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hheap 0 0 HEAP 7 heap dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hinit 8C 0 CODE 0 init dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hrbit 0 0 COMRAM 1 rbit dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hrbss 0 0 COMRAM 1 rbss dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Htemp 4B 0 COMRAM 1 temp dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Htext 0 0 ABS 0 text dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Labs1 0 0 ABS 0 abs1 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ldata 0 0 ABS 0 data dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lheap 0 0 HEAP 7 heap dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Linit 88 0 CODE 0 init dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lrbit 0 0 COMRAM 1 rbit dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lrbss 0 0 COMRAM 1 rbss dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ltemp 4A 0 COMRAM 1 temp dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ltext 0 0 ABS 0 text dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___wmul 185E 0 CODE 0 text12 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+int$flags 4A 0 COMRAM 1 temp dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hintret 0 0 ABS 0 intret dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hirdata 0 0 CODE 0 irdata dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__S0 1886 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__S1 90 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__S4 0 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__S5 0 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_abs 1804 0 CODE 0 text8 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+tx_232@n B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+main@decesal 84 0 BANK0 1 cstackBANK0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_config 170A 0 CODE 0 text11 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+sprintf@fmt 29 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of_abs 1838 0 CODE 0 text8 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lintentry 0 0 ABS 0 intentry dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hramtop 800 0 RAM 0 ramtop dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hrparam 0 0 COMRAM 1 rparam dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__activetblptr 2 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hstruct 0 0 COMRAM 1 struct dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Htext10 0 0 ABS 0 text10 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Htext11 0 0 ABS 0 text11 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Htext12 0 0 ABS 0 text12 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+vfpfcnvrt@fmt 1A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___awmod@counter 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_RCSTAbits FAB 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_PIE1bits F9D 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__ptext10 14EC 0 CODE 0 text10 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__ptext11 170A 0 CODE 0 text11 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__ptext12 185E 0 CODE 0 text12 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___awdiv 14EC 0 CODE 0 text10 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___awmod 15B0 0 CODE 0 text9 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lbigram 0 0 ABS 0 bigram dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lbigsfr 0 0 ABS 0 bigsfr dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lcomram 0 0 ABS 0 comram dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lconfig 0 0 CONFIG 4 config dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___wmul@multiplier 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lsivt_hi 0 0 ABS 0 sivt_hi dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lsivt_lo 0 0 ABS 0 sivt_lo dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_RCSTA1bits FAB 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+main@suma 8A 0 BANK0 1 cstackBANK0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___inthi_stack_hi 0 0 STACK 2 stack C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+___inthi_stack_lo 0 0 STACK 2 stack C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+__Lfardata 0 0 FARRAM 0 fardata dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+isa$std 1 0 ABS 0 - C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+main@numero1 86 0 BANK0 1 cstackBANK0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+main@numero2 88 0 BANK0 1 cstackBANK0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_tx_232 13E4 0 CODE 0 text2 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__p_firma_text 1006 0 CODE 0 _firma_text dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+stackhi 0 0 ABS 0 - C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+stacklo 0 0 ABS 0 - C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+__Lintcode 4 0 CODE 0 intcode dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_OSCCON2 FD2 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_OSCTUNE F9B 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lintret 0 0 ABS 0 intret dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lirdata 0 0 CODE 0 irdata dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lspace_0 0 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lspace_1 0 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lspace_2 0 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lspace_4 0 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__pbssCOMRAM 3A 0 COMRAM 1 bssCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+main@unidsal 80 0 BANK0 1 cstackBANK0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_PIR1bits F9E 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+vfpfcnvrt@convarg 1F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+end_of_initialization 1850 0 CODE 0 cinit dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hintentry 0 0 ABS 0 intentry dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_RCONbits FD0 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+fputc@c 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___awdiv@quotient D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+?___awdiv 7 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+?___awmod F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_firma_absaddr 1006 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+vfprintf@fmt 25 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hreset_vec 4 0 CODE 0 reset_vec dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___awmod@dividend F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lramtop 800 0 RAM 0 ramtop dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lrparam 0 0 COMRAM 1 rparam dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__pcinit 1838 0 CODE 0 cinit dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+vfpfcnvrt@ap 1B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+vfpfcnvrt@cp 1E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+vfpfcnvrt@fp 19 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__ptext0 1008 0 CODE 0 text0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__ptext1 1750 0 CODE 0 text1 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__ptext2 13E4 0 CODE 0 text2 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__ptext3 17D0 0 CODE 0 text3 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__ptext4 1792 0 CODE 0 text4 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__ptext5 122C 0 CODE 0 text5 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__ptext6 1660 0 CODE 0 text6 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__ptext7 1884 0 CODE 0 text7 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__ptext8 1804 0 CODE 0 text8 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__ptext9 15B0 0 CODE 0 text9 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lstruct 0 0 COMRAM 1 struct dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+vfprintf@ap 26 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+vfprintf@fp 24 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+vfprintf@cfmt 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ltext10 0 0 ABS 0 text10 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ltext11 0 0 ABS 0 text11 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Ltext12 0 0 ABS 0 text12 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+_sprintf 17D0 0 CODE 0 text3 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of_tx_232e 1792 0 CODE 0 text1 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__L_firma_text 1006 0 CODE 0 _firma_text dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_vfprintf 1792 0 CODE 0 text4 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lpowerup 88 0 CODE 0 powerup dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+sprintf@ap 2C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__H__absolute__ 0 0 ABS 0 __absolute__ dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__psmallconst 800 0 SMALLCONST 0 smallconst dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of_vfprintf 17D0 0 CODE 0 text4 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___heap_hi 0 0 ABS 0 - C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+___heap_lo 0 0 ABS 0 - C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+___param_bank 0 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___intlo_stack_hi 0 0 STACK 2 stack C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+___intlo_stack_lo 0 0 STACK 2 stack C:\Users\migue\AppData\Local\Temp\xcAs53k.\driver_tmp_14.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of__initialization 1850 0 CODE 0 cinit dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___awmod@divisor 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Libigdata 0 0 CODE 0 ibigdata dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lclrtext 0 0 ABS 0 clrtext dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_SPBRGH1 FB0 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__pintcodelo 18 0 CODE 0 intcodelo dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+vfpfcnvrt@c 23 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+sprintf@f 2D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+sprintf@s 28 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of_lint 88 0 CODE 0 intcodelo dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of_main 122C 0 CODE 0 text0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of_firma 1008 0 CODE 0 _firma_text dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of_fputc 170A 0 CODE 0 text6 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+?_sprintf 28 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__end_of_putch 1886 0 CODE 0 text7 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__HRAM 0 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hbss 0 0 RAM 1 bss dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hram 0 0 ABS 0 ram dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hsfr 0 0 ABS 0 sfr dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__LRAM 1 0 ABS 0 - dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lbss 0 0 RAM 1 bss dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lram 0 0 ABS 0 ram dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lsfr 0 0 ABS 0 sfr dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_cente 42 0 COMRAM 1 bssCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_firma 1006 0 CODE 0 _firma_text dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_flags 48 0 COMRAM 1 bssCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_fputc 1660 0 CODE 0 text6 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_putch 1884 0 CODE 0 text7 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_width 3E 0 COMRAM 1 bssCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+_contador 49 0 COMRAM 1 bssCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hsivt_hi 0 0 ABS 0 sivt_hi dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hsivt_lo 0 0 ABS 0 sivt_lo dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__initialization 1838 0 CODE 0 cinit dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__pbssBANK0 60 0 BANK0 1 bssBANK0 dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hfardata 0 0 FARRAM 0 fardata dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+___wmul@product B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hsmallconst 838 0 SMALLCONST 0 smallconst dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Lifardata 0 0 CODE 0 ifardata dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+__Hintcode 4 0 CODE 0 intcode dist/default/debug\Practica_5_MiguelPetruzzella.X.debug.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+intcodelo 0 18 18 74 1
+cstackCOMRAM 1 1 1 4A 1
+reset_vec 0 0 0 4 1
+bssBANK0 1 60 60 30 1
+smallconst 0 800 800 38 1
+_firma_text 0 1006 1006 880 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES

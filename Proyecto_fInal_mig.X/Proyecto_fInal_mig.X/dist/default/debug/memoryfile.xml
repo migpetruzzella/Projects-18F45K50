@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/debug\Proyecto_fInal_mig.X.debug.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>28672</length>
+      <used>728</used>
+      <free>27944</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>2048</length>
+      <used>42</used>
+      <free>2006</free>
+    </memory>
+  </executable>
+</project>
